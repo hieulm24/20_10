@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Mỹ Hằng ❤️ Rực Rỡ 20/10</title>
+  
+  <!-- Google Fonts: Great Vibes, Dancing Script & Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Great+Vibes&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Moon & Stardust Atmosphere -->
+  <div class="moon-aura"></div>
+
+  <!-- Primary Canvas: Sea of Blooming Velvet Roses & Magic Particles -->
+  <canvas id="gardenCanvas"></canvas>
+
+  <!-- Top Floating Romance Header -->
+  <div class="header-overlay">
+    <div class="date-badge">✨ 20 · 10 · NGÀY PHỤ NỮ VIỆT NAM ✨</div>
+    <h1 class="recipient-title" id="recipientTitle">Dành Tặng Mỹ Hằng</h1>
+  </div>
+
+  <!-- Audio Toggle Switch -->
+  <button class="audio-toggle-btn" id="audioToggleBtn" title="Bật / Tắt giai điệu tình yêu">
+    <span id="audioIcon">🎵</span>
+  </button>
+
+  <!-- Bottom Interactive Pill Buttons (Style TikTok & Heart) -->
+  <div class="bottom-bar-container">
+    <button class="pill-btn pill-btn-primary" id="openCardBtn">
+      <span class="btn-icon">💌</span>
+      <span id="cardBtnText">Ấn Để Mở Thiệp 20/10</span>
+      <span class="btn-icon">🌹</span>
+    </button>
+    
+    <button class="pill-btn pill-btn-secondary" id="rebloomBtn" title="Kéo hoa nở lại">
+      <span class="btn-icon">✨</span>
+      <span>Nở Hoa Lại</span>
+    </button>
+    
+    <div class="hint-text">Chạm vào màn hình để thắp sáng thêm tim & nghe chuông pha lê</div>
+  </div>
+
+  <!-- 3D Romantic Greeting Card Modal -->
+  <div class="card-modal-backdrop" id="cardModal">
+    <div class="card-wrapper">
+      <button class="modal-close-btn" id="closeModalBtn" title="Đóng thiệp">✕</button>
+      
+      <div class="card-parchment">
+        <div class="card-inner-border"></div>
+        <div class="card-seal">🌹</div>
+
+        <div class="card-tag">Happy Vietnamese Women's Day 20/10</div>
+        <h2 class="card-greeting-name">Gửi Mỹ Hằng yêu dấu ❤️</h2>
+
+        <div class="card-message-body">
+          <p>
+            Nhân ngày Phụ nữ Việt Nam 20/10, anh muốn gửi đến em tất cả những tình cảm chân thành, sự trân trọng và những điều ngọt ngào nhất trên thế gian này.
+          </p>
+          <p>
+            Cảm ơn em đã bước vào cuộc đời anh, mang theo nụ cười rạng rỡ và sưởi ấm trái tim anh mỗi ngày. Đối với anh, nụ cười và sự hiện diện của em chính là bông hoa hồng đẹp đẽ, kiêu sa và quý giá nhất mà anh may mắn có được giữa cả vườn hoa rực rỡ này.
+          </p>
+
+          <div class="card-quote">
+            "Dù cả thế giới có rộng lớn nhường nào, nơi bình yên và dịu dàng nhất của anh mãi luôn là bên cạnh em."
+          </div>
+
+          <p>
+            Chúc cô gái bé nhỏ của anh một ngày 20/10 thật nhiều niềm vui, luôn luôn xinh đẹp, hạnh phúc, đạt được mọi ước mơ và lúc nào cũng ngập tràn trong yêu thương. Dù là hôm nay hay mãi mãi về sau, anh vẫn sẽ luôn ở đây, đồng hành, che chở và yêu thương em bằng cả trái tim mình.
+          </p>
+        </div>
+
+        <div class="card-sign-block">
+          <div class="sign-label">Yêu em nhiều hơn mỗi ngày,</div>
+          <div class="sign-handwriting">Mãi yêu Mỹ Hằng ❤️</div>
+        </div>
+
+        <div class="card-action-row">
+          <button class="modal-action-btn btn-send-hearts" id="burstHeartsBtn">
+            <span>💖</span>
+            <span>Thả Thật Nhiều Tim</span>
+          </button>
+          <button class="modal-action-btn btn-back-garden" id="backToGardenBtn">
+            <span>🌸</span>
+            <span>Ngắm Cánh Đồng Hoa</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
